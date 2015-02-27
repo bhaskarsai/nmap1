@@ -7,18 +7,18 @@ The HTML page contains a Google Map, which displays my neighborhood information 
 The neighborhood project can be viewed from the following location.<br />
 http://cdn.rawgit.com/bhaskarsai/nmap1/master/index.html
 
-#version 2 Highlights - Implemented Feedback from Udacity reviewer
-a) Re-arranged the position of Foursuare symbol for providing usability around the text field
-b) Added MAP ZOOM Controls at Left Center of the page
-c) Implemented the suggested on WIKI.  Removed from the left position and associated with the places shown on the map. Note: City information will be displayed of the place
-d) Added error handler for google map loading
-e) Search box is now enabled with Opaque dropdown box. Results are now much visible than previous version
-f) Upon Clicking on X in the search input, the map points will load to the default scenario. (Added validations for not loading the map to default on every click on X, however it will re-set to default when user moved away from default view)
-g) Clicking on X in any of pointers when moved away from default view through search, will re-set to default view (load #10 pointers/places)
-h) Places widget will now respond to the X button on search and individual place holders of the map.
-i) While re-loading map to default view, a message will be displayed beneath the text text box
-j) Console errors are removed through the github production URL.
-k) Tested in Windows 8, Google Chrome browser and IPhone 6 device.
+#version 2 Highlights - Implemented Feedback from Udacity reviewer<br />
+a) Re-arranged the position of Foursuare symbol for providing usability around the text field<br />
+b) Added MAP ZOOM Controls at Left Center of the page<br />
+c) Implemented the suggested on WIKI.  Removed from the left position and associated with the places shown on the map. Note: City information will be displayed of the place<br />
+d) Added error handler for google map loading<br />
+e) Search box is now enabled with Opaque dropdown box. Results are now much visible than previous version<br />
+f) Upon Clicking on X in the search input, the map points will load to the default scenario. (Added validations for not loading the map to default on every click on X, however it will re-set to default when user moved away from default view)<br />
+g) Clicking on X in any of pointers when moved away from default view through search, will re-set to default view (load #10 pointers/places)<br />
+h) Places widget will now respond to the X button on search and individual place holders of the map.<br />
+i) While re-loading map to default view, a message will be displayed beneath the text text box<br />
+j) Console errors are removed through the github production URL.<br />
+k) Tested in Windows 8, Google Chrome browser and IPhone 6 device.<br />
 
 #Highlights:
 a) Google Map showing my neightbood areas
