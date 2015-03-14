@@ -144,7 +144,12 @@ $(document).ready(function() {
 
 	//Method for rendering Map, wiki, weather, places, and search autocomplete.
 	var Intialize = function () {
-
+		
+		//Added the following check, to see if maps object is defined
+		if (typeof google === 'object' && typeof google.maps === 'object'){
+			pageControls.mapLoadStatus('Google Maps is not responding');	
+		}
+		
 		// Intiializes ko bindings and the map view.
 		ko.applyBindings(pageControls);
 		InitLocation(Data.neighborhood.lat, Data.neighborhood.lng);
