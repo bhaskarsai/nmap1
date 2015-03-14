@@ -41,6 +41,9 @@
 			</label>
 			<label>
 				<div data-bind="visible: msgReloadPlaces, text: msgStatus" style="background-color:#ffc"></div>
+				
+				<!--DISPLAY MAP STATUS-->
+				<div data-bind="visible: mapLoadStatus(), text: mapLoadStatus" style="background-color:#ffc"></div>
 			</label>
 		</form>
 	</div>
