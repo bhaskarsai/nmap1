@@ -147,6 +147,7 @@ $(document).ready(function() {
 		
 		//Added the following check, to see if maps object is defined
 		if (typeof google === 'object' && typeof google.maps === 'object'){
+			alert("Google maps found");
 			pageControls.mapLoadStatus('Google Maps is not responding');	
 		}
 		
