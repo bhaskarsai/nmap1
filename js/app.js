@@ -146,7 +146,7 @@ $(document).ready(function() {
 	var Intialize = function () {
 		
 		//Added the following check, to see if maps object is defined
-		if (typeof google === 'object' && typeof google.maps === 'object'){
+		if (typeof google !== 'object' && typeof google.maps !== 'object'){
 			pageControls.mapLoadStatus('Google Maps is not responding');	
 		}
 		
